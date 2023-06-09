@@ -1,0 +1,6 @@
+01_youtube.html:31 상체운동
+01_youtube.html:43 {kind: 'youtube#searchResult', etag: 'XINCbMrTmBnn0a8wqz1FQur0BYM', id: {…}, snippet: {…}}etag: "XINCbMrTmBnn0a8wqz1FQur0BYM"id: {kind: 'youtube#video', videoId: '54tTYO-vU2E'}kind: "youtube#searchResult"snippet: {publishedAt: '2019-11-10T08:50:45Z', channelId: 'UCpg89Ys3E4BaLGgEEWVmI9g', title: '상체 다이어트 최고의 운동 BEST [팔뚝살/겨드랑이살/등살/가슴어깨라인]', description: "꼭 읽어주세요!   팔뚝살, 겨드랑이살, 등살등 상체운동은 꼭 반팔, 민소매를 입는 계절에만 하는 것이 아닙니다. '몸은 거짓말을 하지 ...", thumbnails: {…}, …}[[Prototype]]: Object
+01_youtube.html:43 {kind: 'youtube#searchResult', etag: 'YmC8RriRT0unDtkbrXLFg2FhFQw', id: {…}, snippet: {…}}
+01_youtube.html:43 {kind: 'youtube#searchResult', etag: '-oFQK4T8sAxppktbJpgAC--g0TE', id: {…}, snippet: {…}}
+01_youtube.html:43 {kind: 'youtube#searchResult', etag: 'hKh5dfd7lmhXQ9ZdLAuJHjF1LL0', id: {…}, snippet: {…}}
+01_youtube.html:43 {kind: 'youtube#searchResult', etag: 'wQWfcw8J-hVFBeA1pfFscYfts3c', id: {…}, snippet: {…}}

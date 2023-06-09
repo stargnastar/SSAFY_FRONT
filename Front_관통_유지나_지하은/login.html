@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>운동영상 사이트</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- 외부 CSS 적용 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+</head>
+<style>
+    @font-face {
+        font-family: 'KIMM_Bold';
+        src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/KIMM_Bold.woff2') format('woff2');
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    * {
+        font-family: 'KIMM_Bold';
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        list-style: none;
+    }
+
+
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    body {
+        width: 90%;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    form input {
+        width: 80%;
+        margin: 5px;
+        border: none;
+    }
+    .button-box{
+        display: flex;
+        justify-content: flex-start;
+        width: 80%;
+    }
+    .login-box{
+        width:90%;
+
+    }
+
+       /* 헤더의 내용물 나열 속성 정의 */
+       header {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+        font-family: 'KIMM_Bold';
+
+
+    }
+
+    .headerImg {
+        width: 50px;
+        height: 50px;
+    }
+    .wrap {
+        position: relative;
+        min-height: 100%;
+        padding-bottom: 114px;
+    }
+</style>
+
+<body class="container">
+    <header>
+      <nav class="header-nav">
+        <!-- <div>
+          <a href="index.html"><h1>SSAFY USERS</h1></a>
+        </div> -->
+      </nav>
+    </header>
+    <main class="container">
+      <div class="login-page">
+        <h1>Welcome</h1>
+        <div class="form">
+          <form name="login-form" class="login-form">
+            <input id="id" name="id" type="text" placeholder="ID" />
+            <input
+              id="password"
+              name="password"
+              type="password"
+              placeholder="password"
+            />
+            <button class="login-btn" type="button">
+              로그인
+            </button>
+            <button onclick="location.href='register.html'" type="button">
+              회원가입
+            </button>
+          </form>
+        </div>
+      </div>
+    </main>
+</body>
+<script type="text/javascript" src="js/login.js"></script>
+
+</html>
+
+
+
+
+
+

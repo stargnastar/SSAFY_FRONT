@@ -1,0 +1,103 @@
+
+    @font-face {
+        font-family: 'KIMM_Bold';
+        src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/KIMM_Bold.woff2') format('woff2');
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    * {
+        font-family: 'KIMM_Bold';
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        list-style: none;
+    }
+
+
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+
+
+ 
+
+
+
+    main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 200px;
+    }
+
+    .botton-box>div:nth-child(2) {
+        flex-grow: 1;
+    }
+
+    .botton-box {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 100%;
+        border-color: black;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+
+    .botton-box button {
+        width: 80px;
+        height: 40px;
+        margin: 5px 5px 5px 5px;
+    }
+
+
+    .reviewDetail {
+        margin-top: 20px;
+        padding: 50px 0 0 5px;
+        text-align: center;
+        width: 100%;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+    }
+
+    html,
+    body {
+        height: 100%;
+    }
+
+  
+
+    footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+
+       /* 헤더의 내용물 나열 속성 정의 */
+       header {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+        font-family: 'KIMM_Bold';
+
+
+    }
+
+    .headerImg {
+        width: 50px;
+        height: 50px;
+    }
+    .wrap {
+        position: relative;
+        min-height: 100%;
+        padding-bottom: 114px;
+    }

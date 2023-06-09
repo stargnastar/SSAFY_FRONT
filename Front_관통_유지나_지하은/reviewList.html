@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<!-- HTML5 -->
+<html lang="ko">
+<!-- 한국어 웹 페이지 -->
+
+<head>
+  <!-- 메타 데이터 설정 (설정 정보) -->
+  <meta charset="UTF-8" />
+  <!-- 이 페이지에서 사용하는 문자는 UTF-8 형식을 따른다. -->
+
+  <!-- IE-Edge (최신) 문서 모드 -->
+  <!-- 구버전에서는 사용하지 말아야 한다. -->
+  <meta http-equiv="X-UA-Compatible" content="IE-Edge" />
+
+
+  <!-- 사용자는 디바이스에 최적화 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- 외부 CSS 적용 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <title>운동 영상 관리 사이트</title>
+  <!-- 브라우저 Tab에 표시되는 부분 -->
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link href="css/revdiewList.css" rel="stylesheet">
+</head>
+
+
+
+
+      
+
+<body>
+       <!-- 메인 페이지로 이동하는 이미지 (로고)-->
+       <header class="shadow-sm p-3 mb-5 bg-body rounded">
+        <a href="main.html"><img src="img/headerImg.jpg" class="headerImg" alt="덤벨 두 개를 든 사람이 만세하고 있는 아이콘"></a>
+        <a href="main.html"><h1>운동영상 리뷰목록</h1></a>
+        <a href="main.html"><img src="img/headerImg.jpg" class="headerImg" alt="덤벨 두 개를 든 사람이 만세하고 있는 아이콘"></a>
+      </header>
+  
+        <div>  
+          <img class="background-img" src="img/운동영상 1.PNG" alt="" />
+        </div>
+        
+
+  <div>
+    <!-- 운동 영상 소개 페이지의 상단 -->
+    <main>
+      <nav>
+        <div class = "col">
+            <ul class="nav nav-pills">
+             <form class="nav-item left-tab">
+              <button class="newReview btn btn-sm btn-outline-secondary" type="button"> 새 리뷰 작성 </button>
+             </form>
+             <form class="nav-item right-tab">
+              <input class="form-control me-2" type="search" placeholder="search" aria-label="Search">
+             </form> 
+            </ul>
+           
+
+        </div>
+        <p class="a"></p>
+          <ul class="nav nav-pills">
+            <li class="nav-item left-tab">
+              <a class="nav-link disabled">번호</a>
+            </li>
+            <li class="nav-item left-tab">
+              <a class="nav-link disabled">제목</a>
+            </li>
+            <li class="nav-item right-tab">
+              <a class="nav-link disabled">작성자</a>
+            </li>
+            <li class="nav-item right-tab">
+              <a class="nav-link disabled">조회수</a>
+            </li>
+            <li class="nav-item right-tab">
+              <a class="nav-link disabled">작성 날짜</a>
+            </li>
+            <hr width = "100%" color = "black" size = "3">
+          </ul>
+          
+        <div class = "col">
+          <ul class="nav nav-pills">
+            <li class="nav-item left-tab">
+              <a class="nav-link disabled">1</a>
+            </li>
+            <li class="nav-item left-tab">
+              <button id="goDetail" style ="border-color: white" class="btn btn-sm btn-outline-secondary" type="button">정말 추천하는 영상입니다!</a>
+            </li>
+            <li class="nav-item right-tab">
+              <a class="nav-link disabled">애플힙</a>
+            </li>
+            <li class="nav-item right-tab">
+              <a class="nav-link disabled">127</a>
+            </li>
+            <li class="nav-item right-tab">
+              <a class="nav-link disabled">2021-07-12</a>
+            </li>
+          </ul>
+          </div>
+          <div class = "col">
+            <ul class="nav nav-pills">
+              <li class="nav-item left-tab">
+                <a class="nav-link disabled">2</a>
+              </li>
+              <li class="nav-item left-tab">
+                <a  href=reviewDetail.html  style="border-color: white" class="btn btn-sm btn-outline-secondary" type="button">매일 한 시간씩 운동한 결과..</a>
+              </li>
+              <li class="nav-item right-tab">
+                <a class="nav-link disabled">싸진남</a>
+              </li>
+              <li class="nav-item right-tab">
+                <a class="nav-link disabled">315</a>
+              </li>
+              <li class="nav-item right-tab">
+                <a class="nav-link disabled">2022-05-28</a>
+              </li>
+            </ul>
+            </div>
+
+            <div class = "col">
+              <ul class="nav nav-pills">
+                <li class="nav-item left-tab">
+                  <a class="nav-link disabled">3</a>
+                </li>
+                <li class="nav-item left-tab">
+                  <button style ="border-color: white" class="btn btn-sm btn-outline-secondary" type="button">여러분... 꼭 이 영상보고 운동하세요!</a>
+                </li>
+                <li class="nav-item right-tab">
+                  <a class="nav-link disabled">박시홍</a>
+                </li>
+                <li class="nav-item right-tab">
+                  <a class="nav-link disabled">280</a>
+                </li>
+                <li class="nav-item right-tab">
+                  <a class="nav-link disabled">2022-12-12</a>
+                </li>
+              </ul>
+              </div>
+    
+
+        
+
+  <!-- 주요 내용과 간접적으로 연관된 내용을 작성하는 태그 -->
+  <aside>
+    <form class="find-btn">
+      
+    <button class="btn btn-sm btn-outline-secondary" type="button">이전</button>
+    <button type="button" class="btn btn-outline-secondary" disabled>1</button>
+    <button class="btn btn-sm btn-outline-secondary" type="button">다음</button>
+    </form>
+  </aside>
+  </main>
+
+  <!-- 문서의 마지막에 오는 내용 -->
+  <footer>
+    <p class="a"></p>
+    <ul>
+      <li><a href="#">개인정보 처리방침</a></li>
+      <li><a href="#">이용 약관</a></li>
+      <li><a href="#">오시는 길</a></li>
+      <li>&copy; SSAFY</li>
+    </ul>
+  </footer>
+  <script type="text/javascript" src="js/reviewList.js"></script>
+</body>
+
+</html>

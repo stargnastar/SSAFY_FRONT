@@ -1,0 +1,226 @@
+
+  @font-face {
+    font-family: 'KIMM_Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/KIMM_Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .head-banner {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'KIMM_Bold';
+
+  }
+
+  .head-banner-big-title {
+    height: 100px;
+    font-family: 'KIMM_Bold';
+    width: 70%;
+    text-align: center;
+    vertical-align: end;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+
+  }
+
+  * {
+    font-family: 'KIMM_Bold';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+  }
+
+  .nav {
+    padding: 0;
+  }
+
+  .nav-pills{
+    width: 100%;
+    display: inline-block;
+  }
+
+  .left-tab{
+    float : left;
+  }
+
+  .right-tab{
+    float : right;
+  }
+
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .clicked-big-title {
+    text-decoration: underline;
+    font-size: xx-large;
+    color: darkorange;
+    width: 200px;
+  }
+
+  .unclicked-big-title {
+    color: rgba(0, 0, 0, 0.253);
+    width: 200px;
+  }
+
+  .video-list {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .card-title {
+    text-align: center;
+  }
+
+  .video-list>li {
+    margin: 10px 30px 30px 10px;
+    border-color: white;
+
+  }
+
+  .card-img-top {
+    height: 25rem;
+    border-radius: 10px;
+  }
+
+  .card {
+    width: 30rem;
+    height: 35rem;
+    border-color: white;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  }
+
+  footer ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: rgba(0, 0, 0, 0.644);
+  }
+
+  footer ul li {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .con {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .btn-primary {
+    position: relative;
+    width: 100px;
+    height: 35px;
+    top: -45px;
+    right: -195px;
+    text-align: center;
+
+  }
+
+  .card-text {
+    display: inline-block;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  .form-control{
+    border-color: white;
+    border-bottom: 3px solid black;
+  }
+
+
+
+.video-day{
+  text-align: center;
+  height: 300px;
+  background-color: white;
+  display: block;
+  margin-bottom: 40px;
+  margin-top: 70px;
+}
+.background-img{
+  display : block;
+  margin : auto;
+    
+}
+
+.background-img{
+        width: 50%;
+        height: 500px; 
+        opacity: 0.9;
+}
+
+.go-video{
+  border-color: white; 
+  background-color: orange; 
+  color: white; 
+  block-size: 0.5in;
+  border-radius: 15px;
+  height:40px;
+  margin-top: 20px;
+}
+.video{
+  width:80px;
+}
+.signup{
+  border-color: white; 
+  background-color: orange; 
+  color: white;
+  border-radius: 10px;
+  height:40px;
+}
+
+.arrow{
+  width:70px;
+  opacity: 0.5;
+  
+}
+.arrow-box{
+  display: flex;
+  justify-content: center;
+}
+.row{
+  display: flex;
+  justify-content: row;
+  align-items: center;
+}
+.col{
+  display: flex;
+  justify-content: row;
+}
+.find-btn{
+	text-align: center;
+}
+ /* 헤더의 내용물 나열 속성 정의 */
+ header {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+        font-family: 'KIMM_Bold';
+
+
+    }
+
+    .headerImg {
+        width: 50px;
+        height: 50px;
+    }
+
+    .newReview{
+      margin-left: 15px;
+    }
+
+
+
